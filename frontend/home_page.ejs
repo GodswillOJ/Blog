@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/home_page.css">
+    <script src="https://kit.fontawesome.com/4c4cf0b696.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="blog_logo">
+                <img src="" alt="">
+            </div>
+            <div id="pages">
+                <ul id="features">
+                    <li><a href="">All</a></li>
+                    <li><a href="">Entertainment</a></li>
+                    <li><a href="">Foreign</a></li>
+                </ul>
+                <ul id="signin">
+                    <li><a href="/signup">SignUp</a></li>
+                    <li><a href="/signin">Login</a></li>
+                    <li><a href="/post">New</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <section id="hero_section1">
+                 <div class="myoffer1">
+                    <h4>All New</h4>
+                    <p>We have a brand new collection for our existing customers</p>
+                </div>
+            </section>
+            <section id="hero_section2">
+                <div class="myoffer">
+                    <h4>All New</h4>
+                    <p>We have a brand new collection for our existing customers</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <section id="post_all">
+        <div class="post">
+            <!-- <div class="post_cont">
+                <div class="post1">
+                    <div class="mypost">
+                        <h2>Post Title</h2>
+                        <br>
+                        <h3>Post Snipet</h3>
+                        <p><a href="">=> Readmore</a></p>
+                    </div>
+                    <div class="my_image">
+                        <p>Post Image</p>
+                    </div> -->
+                
+                
+                    <%for(let post of allPosts) {%>
+                    <ul class="post_con">
+                        <li class="post2">
+                            <div class="mypost">
+                                 <h2><%=post.title%></h2>
+                                <br>
+                                <h3>Post Snipet</h3>
+                                <p><%=post.body.slice(0,159)%></p>     
+                            </div>
+                            <div class="my_image">
+                                <img src="<%=post.image%>" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                    <%}%> 
+                
+        </div>
+        
+        <div class="categories">
+            <div class="cat">
+                <h1>Our categories</h1>
+                <div id="check_cat">
+                    <input type="checkbox"/>
+                    <label for="Entertainment">Entertainment</label>
+                </div>
+                <div id="check_cat">
+                    <input type="checkbox"/>
+                    <label for="Foreign">Foreign</label>
+                </div>
+                <input type="button" id="search1" value="Search"/>
+            </div>
+        </div>
+    </section>
+    <footer id="more_info">
+        <div class="more_in">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+            <p class="Us"> <strong>Contact Us:</strong>07036744231</p>
+        </div>
+    </footer>
+    <script src="script/home.js"></script>
+</body>
+</html>

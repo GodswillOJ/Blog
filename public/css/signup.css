@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vh;
+    background-color: rgb(225, 223, 221);
+}
+
+#container{
+    position: relative;
+    background: white;
+    width: 25.5rem;
+    height: 32rem;
+    border-radius: 5px;
+    top: 9rem;
+    left: 40rem;
+}
+.hint{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    right: 3rem;
+    width: 22rem;
+    margin: 78px;
+    padding-top: 10px;
+}
+.hint a{
+    font-size: 18px;
+    color: rgb(33, 18, 18);
+}
+#form{
+    position: relative;
+    margin-top: 40px;
+    left: 10px;
+}
+#form2{
+    position: relative;
+    top: 12px;
+}
+#container h4{
+    color: rgb(33, 18, 18);
+    font-size: 19px;
+    padding-right: 0px;
+}
+.user_info{
+    position: relative;
+    display: block;
+    margin: 20px 20px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(100, 18, 155);
+}
+.Firstname{
+    display: block;
+}
+.Lastname{
+    display: block;
+}
+.New_password{
+    display: block;
+}
+.email{
+    display: block;
+}
+.password{
+    display: block;
+    padding-top: 20px;
+}
+input{
+    width: 330px;
+    height: 30px; 
+    font-size: 16px;
+    border: none; 
+}
+input[type=text]{
+    padding-left: 10px;
+    border-bottom: 0.5px solid rgb(225, 223, 221);
+}
+input[type=password]{
+    padding-left: 10px;
+    border-bottom: 0.5px solid rgb(225, 223, 221);
+}
+button{
+    color: white;
+    background: rgb(110, 66, 133);
+    width: 345px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}

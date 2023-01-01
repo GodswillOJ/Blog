@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vh;
+    background-color:#fff;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+header{
+    position: fixed;
+    width: 47%;
+    z-index: 5;
+}
+nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 215%;
+    justify-content: space-between;
+    height: 70px;
+    background-image: linear-gradient(60deg, rgb(25, 25, 11), rgb(18, 9, 13), rgb(21, 15, 8));
+}
+#pages{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#features li{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    right: 213%;
+}
+#signin li{
+    position: relative;
+    display: block;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    right: 3rem;
+}
+#features li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#features li:active{
+    background-color: rgb(242, 93, 93);
+    height: 70px;
+    bottom: 11.5px;
+}
+#signin li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+#signin li:active{
+    background-color: rgb(242, 93, 93);
+    height: 70px;
+    bottom: 11.5px;
+}
+#features li:hover{
+    background-color: rgb(29, 28, 28);
+    transition: all ease 0.5s;
+    height: 70px;
+    bottom: 11.5px;
+    padding-top: 20px;
+    border: 0.05px solid rgb(132, 129, 129);
+    border-bottom: none;
+}
+#signin li:hover{
+    background-color: rgb(29, 28, 28);
+    transition: all ease 0.5s;
+    height: 70px;
+    bottom: 11.5px;
+    padding-top: 20px;
+    border: 0.05px solid rgb(132, 129, 129);
+    border-bottom: none;
+}
+#hero{
+    position: relative;
+    display: flex;
+    width: 213%;
+    top: 80px;
+}
+#hero_section1{
+    position: relative;
+    width: 53%;
+    height: 400px;
+    margin: 1rem;
+    background-image: url('/images/bag3.jpg');
+    background-position: auto;
+    background-size: cover;
+}
+#hero_section2{
+    position: relative;
+    width: 53%;
+    height: 400px;
+    margin: 1rem;
+    background-image: url('/images/bag3.jpg');
+    background-position: auto;
+    background-size: cover;
+}
+.myoffer{
+    position: relative;
+    top: 19rem;
+}
+.myoffer1{
+    position: relative;
+    top: 19rem;
+}
+.myoffer h4{
+    padding-left: 40px;
+    color: #fff;
+    font-size: 50px;
+}
+.myoffer1 h4{
+    padding-left: 40px;
+    color: #fff;
+    font-size: 50px;
+}
+.myoffer p{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.myoffer1 p{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+#post_all{
+    position: relative;
+    background-color: rgb(251, 252, 252);
+    width: 200%;
+    align-content: center;
+    border-top: 1px solid rgb(137, 137, 137);
+    top: 8rem;
+    margin: 10px;
+    margin-left: 40px;
+}
+.post{
+    position: relative;
+    display: block;
+    height: auto;
+}
+.post_con{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    top: -4rem;
+    left: 4rem;
+}
+#more_info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    top: 4rem;
+    width: 217%;
+    height: auto;
+    background-color: rgb(56, 54, 54);
+    color: rgb(31, 26, 26);
+    align-content: center;
+}
+.more_in ul li{
+    position: relative;
+    display: inline-block;
+    text-transform: none;
+    text-align: center;
+    width: 20%;
+    color: #fff;
+}
+.more_in{
+    position: relative;
+    display: flex;
+}
+.fa-brands{
+    position: relative;
+    width: 20px;
+    color: bisque;
+}
+.post2{
+    position: relative;
+    display: flex;
+    grid-template-columns: 1fr;
+    width: 68rem;
+    padding-top: 30px;
+    top: 50px;
+}
+.my_image{
+    position: relative;
+    width: 20rem;
+    height: 14rem;
+    left: 3rem;
+    background-image: url("/images/bag3.jpg");
+    background-position: auto;
+    background-size: cover;
+    background-color: rgb(255, 253, 251);
+    padding: 1rem;
+}
+img{
+    position: relative;
+    width: 20px;
+}
+#pst{
+    position: relative;
+    display: flex;
+}
+.mypost{
+    position: relative;
+    background-color: rgb(255, 253, 251);
+    left: 3rem;
+    width: 30rem;
+    height: 14rem;
+    padding: 1rem;   
+}
+.post_cont1{
+    position: relative;
+    background-color: rgb(114, 95, 125);
+    left: 20rem;
+    width: 38rem;
+    margin: 2rem;
+    height: 28rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgb(245, 240, 240);
+}
+#add_post{
+    position: relative;
+    background-color: rgb(50, 41, 41);
+    color: #fff;
+    width: 85.35rem;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title{
+    position: relative;
+    top: 20px;
+}
+
+/* .form-select{
+    position: relative;
+    display: block;
+    border-radius: 0px;
+    width: 10rem;
+    height: 2.23rem;
+    text-transform: none;
+    left: 4%;
+    bottom: 27.9px;
+    box-shadow: 1px rgb(231, 224, 224);
+    border-radius: 5px;
+    background-color: #eff0f1;
+    font-size: 15x;
+    left: 80px;
+}     */
+input[type=button]{
+    position: relative;
+    left: 3rem;
+    width: 10rem;
+    height: 2rem;
+    background: rgb(39, 39, 94);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 1px 2px rgb(182, 182, 182);
+}
+.myImg{
+    position: relative;
+    top: 16rem;
+    left: 2rem;
+}
+button{
+    position: relative;
+    top: 14rem;
+    left: 30rem;
+    width: 6rem;
+    height: 2rem;
+    background: rgb(39, 39, 94);
+    color: white;
+    border-radius: 5px;
+    box-shadow:  0px 1px 2px rgb(182, 182, 182);
+}
+.lab_3{
+    position: relative;
+    width: 25rem;
+    height: 4rem;
+    top: 8rem;
+    left: 15px;
+}
+.lab_3 textarea{
+ position: relative;
+ left: 1.5rem;   
+ width: 15rem;
+ height: 9rem;
+ font-size: 14px;
+ padding-left: 4px;
+ padding: 10px;
+}
+.lab_3 label{
+    position: relative;
+    bottom: 8rem;
+    left: 1rem;
+}
+.lab_2{
+    position: relative;
+    top: 5rem;
+    margin-left: 2rem;
+}
+.lab_2 input{
+    position: relative;
+    left: 2.5rem;
+    font-size: 14px;
+    width: 15rem;
+    height: 2rem;
+    padding-left: 4px;
+    padding: 10px;
+}
+.lab_1{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+}
+.lab_1 input{
+    position: relative;
+    left: 3.2rem;
+    font-size: 14px;
+    width: 15rem;
+    height: 2rem;
+    padding-left: 4px;
+    padding: 10px;
+}
+.post_cont1 label{
+    font-weight: bold;
+}
+.categories{
+    position: relative;
+    background-color: none;
+    width: 20rem;
+    top: -33.9rem;
+    left: 60rem;
+}
+.cat{
+    position: relative;
+    bottom: 28rem;
+    left: -2rem;
+    width: 15rem;
+    height: 23rem;
+    background: white;
+}
+#search1{
+    position: relative;
+    top: 6rem;
+    background: rgb(39, 39, 94);
+    left: 1rem;
+}
+.cat h1{
+    position: relative;
+    padding: 10px;
+}
+#check_cat{
+    position: relative;
+    padding: 15px;
+}
+.post_cont{
+    position: relative;
+    top: 1rem;
+}
+.mypost p{
+    position: relative;
+    top: 6rem;
+    left: 21rem;
+}
+.mypost p a{
+    text-decoration: none;
+}

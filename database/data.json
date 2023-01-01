@@ -1,0 +1,44 @@
+[
+    {
+      "name": "entertainment",
+      "subscribers": 5000,
+      "description": "Get Latest news in the entertainment industry",
+      "posts": [
+        {
+          "postId": "1",
+          "title": "Peter Okoye Celebrates wife",
+          "author": "Mark Twain",
+          "body": "This is the body of Peter Okoye's post",
+          "image": "images/img1.jpg"
+        },
+        {
+          "postId": "2",
+          "title": "Uche marries Jumbo",
+          "author": "uchechukwu",
+          "body": "This is the body of Uche's posts",
+          "image": "images/img2.jpg"
+        }
+      ]
+    },
+    {
+      "name": "news",
+      "subscribers": 5000,
+      "description": "Get Latest news in the entertainment industry",
+      "posts": [
+        {
+          "postId": "1",
+          "title": "Peter Okoye Celebrates wife",
+          "author": "Mark Twain",
+          "body": "This is the body of Peter Okoye's post",
+          "image": "images/bag3.jpg"
+        },
+        {
+          "postId": "2",
+          "title": "Uche marries Jumbo",
+          "author": "uchechukwu",
+          "body": "This is the body of Uche's posts",
+          "image": "images/bag3.jpg"
+        }
+      ]
+    }
+  ]
