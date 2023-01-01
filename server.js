@@ -5,7 +5,7 @@ const data = require('./database/data.json');
 const PORT = 5000;
 
 app.set("view engine", "ejs");
-app.set("views", "frontend");
+app.set("views", "docs");
 
 app.use(express.static(path.join(__dirname, "public")));
 
